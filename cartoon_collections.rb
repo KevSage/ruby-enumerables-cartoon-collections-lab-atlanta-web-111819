@@ -19,7 +19,7 @@ end
 def long_planeteer_calls(array)
     greater = []
     array.map do |call|
-      if call.length >= 4
+      if call.length > 4
         greater << "longer"
       else
         greater << "shorter"
